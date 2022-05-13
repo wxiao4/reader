@@ -20,7 +20,7 @@
     >
       <div class="navigation-inner-wrapper">
         <div class="navigation-title">
-          阅读
+          YYT的阅读器
           <span class="version-text" @click="updateForce">{{
             $store.state.version
           }}</span>
@@ -476,7 +476,7 @@
           v-if="$store.getters.isNormalPage && isSearchResult"
           @click="backToShelf"
         >
-          书架
+          YYT的书架
         </div>
         <div
           class="title-btn"
