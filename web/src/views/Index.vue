@@ -20,7 +20,7 @@
     >
       <div class="navigation-inner-wrapper">
         <div class="navigation-title">
-          YYT的阅读器
+          YYT的阅读
           <span class="version-text" @click="updateForce">{{
             $store.state.version
           }}</span>
@@ -436,7 +436,7 @@
         </div>
       </div>
       <div class="bottom-icons">
-        <a href="https://github.com/hectorqin/reader" target="_blank">
+        <a href="https://github.com/wxiao4/reader" target="_blank">
           <div class="bottom-icon">
             <img
               v-if="isNight"
@@ -469,7 +469,7 @@
           v-if="$store.getters.isNormalPage && collapseMenu"
           @click.stop="toggleMenu"
         ></i>
-        {{ isSearchResult ? (isExploreResult ? "探索" : "搜索") : "书架" }}
+        {{ isSearchResult ? (isExploreResult ? "探索" : "搜索") : "YYT的书架" }}
         ({{ bookList.length }})
         <div
           class="title-btn"
