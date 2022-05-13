@@ -21,9 +21,6 @@
       <div class="navigation-inner-wrapper">
         <div class="navigation-title">
           YYT的阅读
-          <span class="version-text" @click="updateForce">{{
-            $store.state.version
-          }}</span>
         </div>
         <div class="navigation-sub-title">
           清风不识字，何故乱翻书
